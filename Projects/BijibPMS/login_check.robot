@@ -2,8 +2,8 @@
 Library    SeleniumLibrary
 
 Resource    ../../Shared/variables/common.resource
-Resource    ../../Shared/common_keywords.resource
+Resource    ./resources/common_keywords.resource
 
 *** Test Cases ***
-Login Check
-    Open Browser and Login Application    testuser3    correct_password
+Go To Bijib PMS
+    Login and Goto Bijib PMS    testuser3    correct_password    TEST HOSPITAL
