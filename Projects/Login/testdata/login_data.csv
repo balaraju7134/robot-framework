@@ -1,6 +1,6 @@
 *** Test Cases ***,${username},${password},${expected}
-TC1,,,Please Enter User Name/Mobile/Email
-TC2,notempty,,Please Enter Password
-TC3,1,notempty,Invalid Username
-TC4,testuser3,invalid,Enter Valid Credentials.
-TC5,testuser3,E7q_35&ZR]5D*iRZ,success
+TC1 - Verify error message when username and password are empty,,,Please Enter User Name/Mobile/Email
+TC2 - Verify error message when password is empty,notempty,,Please Enter Password
+TC3 - Verify login with invalid username,1,notempty,Invalid Username
+TC4 - Verify login with valid username and invalid password,testuser3,invalid,Enter Valid Credentials.
+TC5 - Verify successful login with valid credentials,testuser3,correct_password,success
