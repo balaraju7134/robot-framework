@@ -3,7 +3,7 @@ Library           SeleniumLibrary
 Library           DataDriver    file=../testdata/login_data.csv    dialect=excel    encoding=UTF-8
 
 Resource    ../../../Shared/browser_keywords.resource
-Resource    ../variables/common.resource
+Resource    ../../../Shared/variables/common.resource
 Resource    ../pages/login_with_password_page.robot
 
 Suite Setup    Open Browser To Application

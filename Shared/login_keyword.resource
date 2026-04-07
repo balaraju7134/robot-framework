@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../..Login/pages/login_with_password_page.robot
-
+Resource    ../Projects/Login/pages/login_with_password_page.robot
 
 *** Variables ***
 
