@@ -1,4 +1,3 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:venv",
-    "robotcode.disableExtension": true
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
